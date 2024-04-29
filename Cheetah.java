@@ -4,4 +4,11 @@ public class Cheetah extends Mammal implements Hunter {
         super(animalName, old, abilities, runningVelocity);
     }
 
+    @Override
+    public void hunt(Prey prey) {
+
+        System.out.println(animalName + " hunted " + prey.getName());
+        Cage.removeAnimal(prey);
+    }
+
 }

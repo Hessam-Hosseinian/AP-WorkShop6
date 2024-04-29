@@ -4,9 +4,8 @@ public class Girafe extends Mammal implements Prey {
         super(animalName, old, abilities, runningVelocity);
     }
     
+    @Override
     public String getName() {
         return animalName;
-
     }
-
 }
