@@ -20,5 +20,6 @@ public abstract class Mammal extends Animal {
         this.runningVelocity = runningVelocity;
     }
     
+    
 
 }

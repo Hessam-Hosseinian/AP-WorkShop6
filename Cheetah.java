@@ -11,5 +11,6 @@ public class Cheetah extends Mammal implements Hunter {
         Cage.removeAnimal(prey);
     }
     
+    
 
 }

@@ -39,5 +39,6 @@ public abstract class Animal {
         this.abilities = abilities;
     }
     
+    
 
 }

@@ -9,4 +9,5 @@ public class Girafe extends Mammal implements Prey {
         return animalName;
     }
     
+    
 }
