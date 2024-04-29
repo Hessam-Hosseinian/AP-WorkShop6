@@ -20,4 +20,5 @@ public abstract class Bird extends Animal {
         this.flyHeight = flyHeight;
     }
 
+    
 }

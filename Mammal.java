@@ -19,5 +19,6 @@ public abstract class Mammal extends Animal {
     public void setRunningVelocity(int runningVelocity) {
         this.runningVelocity = runningVelocity;
     }
+    
 
 }

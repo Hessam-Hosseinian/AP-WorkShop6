@@ -10,5 +10,6 @@ public class Cheetah extends Mammal implements Hunter {
         System.out.println(animalName + " hunted " + prey.getName());
         Cage.removeAnimal(prey);
     }
+    
 
 }

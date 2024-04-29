@@ -8,4 +8,5 @@ public class Girafe extends Mammal implements Prey {
     public String getName() {
         return animalName;
     }
+    
 }

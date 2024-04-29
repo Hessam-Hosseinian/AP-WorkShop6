@@ -38,5 +38,6 @@ public abstract class Animal {
     public void setAbilities(String abilities) {
         this.abilities = abilities;
     }
+    
 
 }
