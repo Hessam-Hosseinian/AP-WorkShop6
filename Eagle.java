@@ -4,4 +4,11 @@ public class Eagle extends Bird implements Hunter {
         super(animalName, old, abilities, flyHeight);
     }
 
+    public void hunt(Prey prey) {
+
+        System.out.println(animalName + " hunted " + prey.getName());
+        Cage.removeAnimal(prey);
+
+    }
+
 }

@@ -4,6 +4,7 @@ public class Parrot extends Bird implements Prey {
         super(animalName, old, abilities, flyHeight);
     }
 
+    @Override
     public String getName() {
         return animalName;
 
